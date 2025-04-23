@@ -213,18 +213,18 @@ A full-stack travel memory journal web app built using the **MERN stack**, deplo
    <img width="398" alt="image" src="https://github.com/user-attachments/assets/aea679c1-94a4-4841-959a-9c54061c7b8a" /><br>
 4. Create Application Load Balancers and assign target groups.<br>
    NOTE : Make sure the Load balancer is mapped to multi AZs
-   <img width="959" alt="image" src="https://github.com/user-attachments/assets/d737c3c2-d550-48b0-8821-13bf94450d4a" /><br>
-   ![image](https://github.com/user-attachments/assets/b5a9b575-d518-423c-aa21-425d820da886)<br>
+   -Add Img
+   -Add img
 ---
 
 ### Custom Domain Setup Using Cloudflare
 
 1. Connect your domain & sudomain to the application using Cloudflare.<br> 
-   e.g. - Domain: tanujbhatia.site<br>
-   e.g. - Subdomain: api.tanujbhatia.site<br>
+   e.g. - Domain: minnath.site<br>
+   e.g. - Subdomain: api.minnath.site<br>
    
 2. Create a CNAME record pointing to the load balancer endpoint.<br>
-   <img width="446" alt="image" src="https://github.com/user-attachments/assets/36cab0cd-c2c6-4c7a-b60d-f65bb64bca30" />
+   --Add img
 
 3. Update .env & urls.js in frontend to use your new domain/subdomain.
    ```bash
@@ -235,7 +235,7 @@ A full-stack travel memory journal web app built using the **MERN stack**, deplo
    sudo nano .env
 
    # Put the following content (remember to change it based on your requirements): 
-   REACT_APP_BACKEND_URL=http://backend_api_url #e.g. - http://api.tanujbhatia.site
+   REACT_APP_BACKEND_URL=http://backend_api_url #e.g. - http://api.minnath.site
 
    # Build the dependencies
    npm run build
@@ -244,13 +244,13 @@ A full-stack travel memory journal web app built using the **MERN stack**, deplo
    sudo npm start
    ```
 4. Now we can access the application using domain name because of DNS settings.<br>
-   ![image](https://github.com/user-attachments/assets/f12ae51c-e6ed-4e85-bb9f-41fa3911672d)<br>
+   --Add img
 
    Click on "Add Experience" and enter new data through UI.<br>
-   <img width="956" alt="image" src="https://github.com/user-attachments/assets/4d37bc15-44a2-4c4a-af48-a2d4630c58f6" /><br>
+   -- Add img
    
    The data get stored in the MongoDB database.<br>
-   ![image](https://github.com/user-attachments/assets/35a49355-3ec9-4dd5-8c9a-8f520830fc55)
+   --Add img
 ---
 
 ### Deployment Status
